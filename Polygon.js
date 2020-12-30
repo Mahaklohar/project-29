@@ -6,7 +6,7 @@ class Polygon{
 		    denstiy: 3.0
         }
 
-        this.body = Bodies.circle(x, y, radius);
+        this.body = Bodies.circle(x, y, radius, option);
         this.radius = radius;
         this.img = loadImage("polygon.png");
         World.add(world, this.body);
